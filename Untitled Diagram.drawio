@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T22:47:04.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="az6S8RjjzdgoSVWVCy2z" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T22:49:30.588Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="frorTZYsYCyQSC-TCsNz" version="15.6.6" type="github">
   <diagram id="wv96g9Lp78fDfjlQCg45" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,10 +126,13 @@
         <mxCell id="U9IBYMq3NdYZcH26I69M-35" value="Need auto scaling" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="311.875" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="U9IBYMq3NdYZcH26I69M-39" value="Use Scale Sets" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
+        <mxCell id="U9IBYMq3NdYZcH26I69M-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="U9IBYMq3NdYZcH26I69M-39" target="U9IBYMq3NdYZcH26I69M-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9IBYMq3NdYZcH26I69M-39" value="Use Scale Sets" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="451.875" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U9IBYMq3NdYZcH26I69M-41" value="Use images&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="U9IBYMq3NdYZcH26I69M-41" value="Use images/Scaling in/out rules&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="452" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U9IBYMq3NdYZcH26I69M-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="U9IBYMq3NdYZcH26I69M-42" target="U9IBYMq3NdYZcH26I69M-48">
@@ -144,8 +147,17 @@
         <mxCell id="U9IBYMq3NdYZcH26I69M-46" value="Covers&amp;nbsp; DC failure" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
           <mxGeometry x="651.875" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U9IBYMq3NdYZcH26I69M-48" value="Remember to use fault domains/update domains" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
+        <mxCell id="U9IBYMq3NdYZcH26I69M-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="U9IBYMq3NdYZcH26I69M-48" target="U9IBYMq3NdYZcH26I69M-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9IBYMq3NdYZcH26I69M-48" value="Remember to use fault domains/update domains" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="291.875" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U9IBYMq3NdYZcH26I69M-50" value="Same setup of vms" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
+          <mxGeometry x="651.875" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U9IBYMq3NdYZcH26I69M-54" value="Need more power to the resource use scale up/down rules" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
+          <mxGeometry x="291.875" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
